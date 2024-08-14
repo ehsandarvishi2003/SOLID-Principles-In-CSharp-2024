@@ -15,7 +15,7 @@ namespace LSP.Liskov_Substitution_Principle.Good
         {
             AccountAccessMannager accountAccess = new AccountAccessMannager();
 
-            List<FreeAccountAccess> accounts = new List<FreeAccountAccess>();
+            List<PaidAccountAccess> accounts = new List<PaidAccountAccess>();
             accounts.Add(new FreeAccount());
             accounts.Add(new GoldAccount());
             accounts.Add(new PlatinumAccount());

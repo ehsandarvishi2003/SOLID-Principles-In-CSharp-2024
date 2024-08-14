@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace LSP.Liskov_Substitution_Principle.Good.AccountTypes
 {
-    public abstract class PaidAccountAccess : FreeAccountAccess , ICourse
+    public abstract class PaidAccountAccess : IArticle, ICourse
     {
+        public abstract List<string> GetArticlesAccessDetails();
         public abstract List<string> GetCoursesAccessDetails();
     }
 }

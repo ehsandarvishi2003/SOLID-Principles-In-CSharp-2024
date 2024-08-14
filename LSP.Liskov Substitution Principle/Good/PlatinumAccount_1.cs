@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LSP.Liskov_Substitution_Principle.Good
 {
-    public class PlatinumAccount : TopPaidAccountAccess
+    public class PlatinumAccount_1 : TopPaidAccountAccess
     {
         public override List<string> GetArticlesAccessDetails() ////Because original "GetArticlesAccessDetails" is abstract
         {
