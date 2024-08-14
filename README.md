@@ -1,1 +1,1 @@
-# SPLID Principles in c#
+# SOLID Principles in c#
