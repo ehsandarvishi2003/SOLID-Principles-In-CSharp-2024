@@ -17,6 +17,6 @@ In the example code, we need to insert a user into the database. Our user has `n
  * Enter the bank registration;
  * Send a welcome email;
 
-In the bad example [ruim](https://github.com/ehsandarvishi2003/SOLID-Principles-In-CSharp-2024/tree/master/SRP.Single%20Risponsibility%20Prenciple/Bad), we perform all these steps in the UserService.cs class.
+In the bad [bad](https://github.com/ehsandarvishi2003/SOLID-Principles-In-CSharp-2024/tree/master/SRP.Single%20Risponsibility%20Prenciple/Bad)example, we perform all these steps in the UserService.cs class.
 
-In the good example [bom](https://github.com/ehsandarvishi2003/SOLID-Principles-In-CSharp-2024/tree/master/SRP.Single%20Risponsibility%20Prenciple/Good), we separate our classes making each part responsible for carrying out a specific task.
+In the good [good](https://github.com/ehsandarvishi2003/SOLID-Principles-In-CSharp-2024/tree/master/SRP.Single%20Risponsibility%20Prenciple/Good)example, we separate our classes making each part responsible for carrying out a specific task.
